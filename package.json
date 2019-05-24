@@ -18,8 +18,16 @@
     "notification-checker",
     "checker"
   ],
-  "author": "xinfang.yuan@gmail.com",
-  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinfang/react-native-notification-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xinfang/react-native-notification-checker/issues"
+  },
+  "homepage": "https://github.com/xinfang/react-native-notification-checker#readme",
+  "author": "Xinfang Yuan",
+  "license": "MIT",
   "devDependencies": {
     "react": "^16.2.0",
     "react-native": "^0.53.0"
