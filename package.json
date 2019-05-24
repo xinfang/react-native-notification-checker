@@ -1,0 +1,30 @@
+{
+  "name": "react-native-notification-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "notification",
+    "notification-checker",
+    "checker"
+  ],
+  "author": "xinfang.yuan@gmail.com",
+  "license": "",
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.53.0"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
+  }
+}
