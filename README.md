@@ -79,10 +79,11 @@ import RNNotificationChecker from 'react-native-notification-checker';
 
 ```javascript
     const { RNNotificationChecker } = NativeModules;
-    RNNotificationChecker.isAllowReceiveNotifiction(isAllow => {
-      // isAllow true is enabled , false is disabled
-    }, error => {
+    RNNotificationManager.isAllowReceiveNotifiction()
+    .then(isAllow => {
+       // isAllow true is enabled , false is disabled
     })
+    .catch(error => console.log('error check', error))
 
 // ...or an async function
     const enabled = await RNNotificationChecker.isAllowReceiveNotifiction();

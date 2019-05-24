@@ -23,12 +23,12 @@ public class RNNotificationCheckerModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void isAllowReceiveNotifiction(Callback successCallback, Callback errorCallback) {
+  public void isAllowReceiveNotifiction(final Promise promise) {
     try {
       Boolean areEnabled = NotificationManagerCompat.from(getReactApplicationContext()).areNotificationsEnabled();
-      successCallback.invoke(areEnabled);
+      promise.resolve(areEnabled);
     }catch (Exception e) {
-      errorCallback.invoke(e.getMessage());
+      promise.reject(e.getMessage());
     }
   }
 }
