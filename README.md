@@ -79,7 +79,7 @@ import RNNotificationChecker from 'react-native-notification-checker';
 
 ```javascript
     const { RNNotificationChecker } = NativeModules;
-    RNNotificationManager.isAllowReceiveNotifiction()
+    RNNotificationChecker.isAllowReceiveNotifiction()
     .then(isAllow => {
        // isAllow true is enabled , false is disabled
     })
