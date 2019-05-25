@@ -52,7 +52,7 @@ dependencies {
 On newer versions of React Native (0.18+):
 
 ```java
-import com.p8happ.util.notificationManager.RNNotificationCheckerPackage;
+import com.p8happ.notificationManager.RNNotificationCheckerPackage;
 
 public class MainActivity extends ReactActivity {
   ......
